@@ -1,20 +1,32 @@
 {
   "name": "dynasty",
-  "version": "0.2.1",
+  "version": "0.1.5",
   "description": "Dynasty - Promise-based DynamoDB API",
   "homepage": "http://dynastyjs.com",
-  "author": "Victor Quinn <mail@victorquinn.com>",
+  "author": {
+    "name": "Victor Quinn",
+    "email": "mail@victorquinn.com"
+  },
   "contributors": [
-    "Mike Atkins (https://github.com/apechimp)",
-    "Ben McIlwain (https://github.com/cydeweys)",
-    "Tim Huff (https://github.com/timhuff)"
+    {
+      "name": "Mike Atkins",
+      "url": "https://github.com/apechimp"
+    },
+    {
+      "name": "Ben McIlwain",
+      "url": "https://github.com/cydeweys"
+    },
+    {
+      "name": "Tim Huff",
+      "url": "https://github.com/timhuff"
+    }
   ],
   "bugs": {
     "url": "https://github.com/victorquinn/dynasty/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/victorquinn/dynasty.git"
+    "url": "git+https://github.com/victorquinn/dynasty.git"
   },
   "licenses": [
     {
@@ -66,7 +78,28 @@
     "bluebird": "^2.3.11",
     "coffee-script": "^1.6.3",
     "debug": "^2.1.0",
-    "lodash": "^3.10.1",
+    "lodash": "^2.4.1",
     "require-directory": "^2.0.0"
-  }
+  },
+  "gitHead": "7296ac81603c14a5a68e1f4c435df2bb8e6779a6",
+  "_id": "dynasty@0.1.5",
+  "_shasum": "374fd0600460e09316c82852de936ccc1e582740",
+  "_from": "dynasty@*",
+  "_npmVersion": "2.13.3",
+  "_nodeVersion": "3.0.0",
+  "_npmUser": {
+    "name": "victorquinn",
+    "email": "mail@victorquinn.com"
+  },
+  "maintainers": [
+    {
+      "name": "victorquinn",
+      "email": "mail@victorquinn.com"
+    }
+  ],
+  "dist": {
+    "shasum": "374fd0600460e09316c82852de936ccc1e582740",
+    "tarball": "http://registry.npmjs.org/dynasty/-/dynasty-0.1.5.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/dynasty/-/dynasty-0.1.5.tgz"
 }
